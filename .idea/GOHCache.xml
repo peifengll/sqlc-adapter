@@ -14,6 +14,35 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/adapter.go" />
+              <option value="file://$PROJECT_DIR$/model/casbinrulemodel_gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MySQLConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="TomConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/config.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="customCasbinRuleModel">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/model/casbinrulemodel.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="defaultCasbinRuleModel">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/model/casbinrulemodel_gen.go" />
             </set>
           </value>
         </entry>
@@ -24,7 +53,7 @@
         <entry key="file://$PROJECT_DIR$/adapter.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1700645801905" />
+              <option name="lastModified" value="1700727477928" />
               <option name="schema">
                 <list>
                   <option value="CasbinRule" />
@@ -34,14 +63,63 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1700723196559" />
+              <option name="schema">
+                <list>
+                  <option value="TomConfig" />
+                  <option value="MySQLConfig" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/model/casbinrulemodel.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1700726832343" />
+              <option name="schema">
+                <list>
+                  <option value="customCasbinRuleModel" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/model/casbinrulemodel_gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1700727339992" />
+              <option name="schema">
+                <list>
+                  <option value="defaultCasbinRuleModel" />
+                  <option value="CasbinRule" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/model/vars.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1700726832343" />
+            </ScannedPath>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="tableStructMapping">
       <map>
         <entry key="adapter" value="Adapter" />
         <entry key="casbin_rule" value="CasbinRule" />
+        <entry key="custom_casbin_rule_model" value="customCasbinRuleModel" />
+        <entry key="default_casbin_rule_model" value="defaultCasbinRuleModel" />
+        <entry key="my_sql_config" value="MySQLConfig" />
+        <entry key="tom_config" value="TomConfig" />
       </map>
     </option>
-    <option name="lastTimeChecked" value="1700638232093" />
+    <option name="lastTimeChecked" value="1700726260661" />
   </component>
 </project>
